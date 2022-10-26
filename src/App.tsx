@@ -10,6 +10,7 @@ function App() {
         <p>
           Hola Mundo
         </p>
+        <p>Hola Miguel</p>
         <button> Enviar </button>
         <a
           className="App-link"
