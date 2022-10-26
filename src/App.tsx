@@ -1,28 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Login from "./components/Login/Login";
+import Register from "./components/Register/Register";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hola Mundo
-        </p>
-        <p>Hola Miguel</p>
-        <button> Enviar </button>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+
+    return(
+      <div>
+          <Login />
+          <Register />
+      </div>      
+    );
 }
 
-export default App;
+export default App
