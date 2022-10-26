@@ -10,6 +10,7 @@ function App() {
         <p>
           Hola Mundo
         </p>
+        <button> Enviar </button>
         <a
           className="App-link"
           href="https://reactjs.org"
